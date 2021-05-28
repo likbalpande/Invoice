@@ -1,0 +1,83 @@
+<!-- <ion-content class="whole">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-buttons mode="md" class="cancelButton">
+        <ion-button size="small"  fill="clear" size="normal" slot="end" [routerLink]="['/home']">
+          <ion-icon class="cancelIcon" slot="icon-only" name="close"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <div class="headerContent">
+        <h3 class="headerText">Invoice Details</h3>
+      </div>
+          <ion-list>
+              <ion-card>
+                <ion-card-content size="small">
+                  <ion-label>Invoice Amount:<br><strong>{{singleInvoice.invoiceAmount}}</strong></ion-label>
+                  <br><br>
+                  <ion-label>Property:<br><strong>{{singleInvoice.property}}</strong></ion-label>
+                  <br><br>
+                  <ion-label>Description:<br><strong>{{singleInvoice.description}}</strong></ion-label>
+                  <br><br>
+                  <ion-label>Date:<br><strong>{{singleInvoice.date}}</strong></ion-label>
+                  <br><br>
+                  <ion-label>Owner:<br><strong>{{singleInvoice.owner}}</strong></ion-label>
+                  <br><br>
+                  <ion-label>Invoice Number:<br><strong>{{singleInvoice.id}}</strong></ion-label>
+                  <br><br>
+                </ion-card-content>
+              </ion-card>
+          </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content> -->
+
+
+
+
+
+<ion-header >
+  <ion-toolbar color="primary" >
+
+      <ion-buttons>
+        <ion-back-button defaultHref="/home"></ion-back-button><ion-label class="headerText">Invoice Details</ion-label>
+      </ion-buttons>
+
+
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+ <ion-list>
+  <ion-card class="cardWithDetails">
+    <ion-card-content>
+      <ion-icon name="create-outline" size="large" class="editIcon"></ion-icon>
+      <ion-label>Invoice Amount:<strong>&nbsp;&nbsp;{{singleInvoice.invoiceAmount}}</strong></ion-label>
+      <br><br>
+      <ion-label>Property:&nbsp;&nbsp;<strong>{{singleInvoice.property}}</strong></ion-label>
+      <br><br>
+      <ion-label>Description:&nbsp;&nbsp;<strong>{{singleInvoice.description}}</strong></ion-label>
+      <br><br>
+      <ion-label>Date:&nbsp;&nbsp;<strong>{{singleInvoice.date}}</strong></ion-label>
+      <br><br>
+      <ion-label>Owner:&nbsp;&nbsp;<strong>{{singleInvoice.owner}}</strong></ion-label>
+      <br><br>
+      <ion-label>Invoice Number:&nbsp;&nbsp;<strong>{{singleInvoice.id}}</strong></ion-label>
+      <br>
+    </ion-card-content>
+  </ion-card>
+</ion-list>
+<div class="bottomText">
+<ion-list>
+<ion-label class="aut">AUTO INVOICE</ion-label>
+<br>
+<p class="det">Enable auto invoice creation</p>
+<ion-toggle color="secondary" class="tog1"></ion-toggle>
+<br>
+<p class="det2">Enable invoice submit</p>
+<ion-toggle color="success" class="tog2"></ion-toggle>
+
+</ion-list>
+</div>
+</ion-content>
+<!--changed-->

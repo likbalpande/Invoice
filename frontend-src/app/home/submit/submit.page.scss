@@ -1,0 +1,324 @@
+// ion-content{
+//   --background: #E5E5E5;
+// }
+.hell{
+  padding:0px;
+  margin:0px;
+  border:0px;
+  // background-color:#E5E5E5 ;
+}
+.cancelbut{
+position: absolute;
+left: 90%;
+right: 9.17%;
+top: 10%;
+border-radius: 7px;
+background: #979797;}
+.required {
+
+  color: #E14F25;
+}
+// ionbutton1{
+//  background-color: transparent;
+//  box-shadow: none;
+// }
+
+
+.red{
+  content: '*';
+  color: #E14F25;
+  size:15px;
+  word-spacing: 5px;
+  padding:5px;
+  margin:0px;
+  border:0px;
+
+}
+.invocon{
+  position: absolute;
+
+height: 19px;
+left: 16px;
+top: 79px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #3D4046;
+}
+
+.ln
+{position: absolute;
+width: 130px;
+height: 0px;
+left: 16px;
+top: 111px;
+background-color: #1E4EDF; ;
+border: 2px solid #1E4EDF;}
+.hel{
+
+
+left: 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+padding-left:-50x;
+letter-spacing: -0.02em;
+
+color: #36383E;
+
+}
+.gen1{
+  top: 120px;
+
+  background: transparent ;
+}
+.hel2{
+
+
+
+ left: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #36383E;
+}
+.gen2{
+/* For the month */
+
+
+top: 120px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #36383E;
+}
+
+
+.hel3{
+
+
+
+
+    left: 20px;
+
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 15px;
+     line-height: 18px;
+     /* identical to box height */
+
+     letter-spacing: -0.02em;
+
+     color: #36383E;
+   }
+
+.gen3{
+
+
+top: 120px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #36383E;
+}
+.hel4{
+
+
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #36383E;
+
+
+}
+.gen4{
+
+
+
+top: 121px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #36383E;
+}
+.hel5{
+
+
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #36383E;
+
+
+}
+.gen5{
+
+
+top: 121px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #36383E;
+
+}
+.hel6{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #36383E;
+}
+.gen6{
+
+  top: 121px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #36383E;
+}
+
+.up{
+
+ position:absolute;
+  width: 147px;
+  height: 17px;
+  left: 20px;
+  top: 600px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+
+  color: #1E4EDF;
+}
+.sub{
+
+  position:relative;
+ align-items:center;
+  top: 400px;
+
+   font-family: Roboto;
+
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 18px;
+   letter-spacing: -0.02em;
+
+   color: #1E4EDF;
+ }
+ .center{
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ }
+ .round{
+  border-radius: 7px;
+ }
+.cen{
+  margin: 0;
+  position: absolute;
+  top: 5%;
+  left: 95%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+ion-select::part(icon) {
+  display: none !important;
+ }
+ ion-icon{
+  font-size: 15px;
+ }
+
+ .calendarCon{
+   float: right;
+   padding:0px;
+   border:0px;
+   margin-right:0px;
+ }
+
+//  @media(max-width:467.5px){
+
+//   .calendarCon{
+
+//     padding:100px;
+//     border:0px;
+//     margin:0px;
+//     margin-left:200px;
+//   }
+// }

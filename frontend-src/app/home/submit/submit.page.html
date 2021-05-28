@@ -1,0 +1,102 @@
+<ion-content>
+  <ion-grid>
+		<ion-row justify-content-center>
+			<ion-col align-self-center>
+
+  <ion-buttons  end>
+    <button class="cen" ion-button icon-only (click) ="showAlert()"  >
+     <ion-icon  shape="round" class= "cancelbut" name="close"></ion-icon>
+   </button>
+  </ion-buttons>
+
+ <div class="invocon"><strong>INVOICE DETAILS</strong></div>
+ <div class="ln"></div>
+
+<ion-grid><ion-row><ion-col>
+
+<ion-item color="none" class="gen3">
+   <ion-label  class= "hel" ><strong>Select Property</strong></ion-label>
+
+
+   <ion-select [(ngModel)]="prop" >
+
+   <ion-select-option value="prop1">property 1</ion-select-option>
+    <ion-select-option value="prop2">property 2</ion-select-option>
+    <ion-select-option value="prop3">property 3</ion-select-option>
+    <ion-select-option value="prop4">property 4</ion-select-option>
+    <ion-select-option value="prop5">property 5</ion-select-option>
+  </ion-select>
+  <ion-icon name="chevron-down"  slot="end"></ion-icon>
+  <p class="red" slot="end"> *</p>
+
+  </ion-item>
+</ion-col></ion-row></ion-grid>
+
+<ion-grid><ion-row><ion-col>
+<ion-item color="none" class="gen2" >
+  <ion-label class="hel2"   position="fixed" ><strong>For the Month</strong></ion-label>
+
+
+  <button  clear slot="end" class="hell" ion-button icon-right (click)="picker.open()">
+
+    <ion-datetime #picker pickerFormat="DD MMMM YYYY" [min]="" [(ngModel)]="mon" >
+    </ion-datetime>
+  </button>
+  <ion-icon name="calendar"  slot="end" class="calendarCon"></ion-icon>
+  <!-- <ion-button class="hell" slot="end" fill="clear"> -->
+    <!-- <p slot="end" class="red"> *</p> -->
+  <!-- </ion-button> -->
+  <p class="red" slot="end">*</p>
+
+  </ion-item>
+</ion-col></ion-row></ion-grid>
+<ion-grid><ion-row><ion-col>
+<ion-item  color="none" class="gen3">
+<ion-label class="hel" ><strong>Select owner</strong></ion-label>
+<ion-select [(ngModel)]="own" required >
+  <ion-select-option value="own1">owner 1</ion-select-option>
+   <ion-select-option value="own2">owner 2</ion-select-option>
+   <ion-select-option value="own3">owner 3</ion-select-option>
+   <ion-select-option value="own4">owner 4</ion-select-option>
+   <ion-select-option value="own5">owner 5</ion-select-option>
+ </ion-select>
+ <ion-icon name="chevron-down"  slot="end"></ion-icon>
+ <span class="red" slot="end">*</span>
+</ion-item>
+</ion-col></ion-row></ion-grid>
+<ion-grid><ion-row><ion-col>
+<ion-item color="none" class="gen4">
+<ion-label   class="hel4" position="fixed" ><strong>Invoice Number</strong> </ion-label>
+ <ion-input type="number"  [(ngModel)]="invn" required></ion-input>
+ <span class="red">*</span></ion-item>
+</ion-col></ion-row></ion-grid>
+
+<ion-grid><ion-row><ion-col>
+<ion-item  color="none" class="gen5">
+<ion-label class="hel5" position="fixed" ><strong>Invoice Amount</strong></ion-label>
+ <ion-input type="number"  [(ngModel)]="inva" required ></ion-input>
+ <span class="red">*</span>
+</ion-item>
+</ion-col></ion-row></ion-grid>
+<ion-grid><ion-row><ion-col>
+<ion-item color="none" class="gen6">
+  <ion-label class="hel6" position="floating" ><strong>Description</strong></ion-label>
+ <ion-input type="text "  [(ngModel)]="des" ></ion-input>
+</ion-item>
+</ion-col></ion-row></ion-grid>
+
+<ion-button   fill="clear" class="up" (click)="GoBack()"><strong>UPLOAD INVOICE </strong></ion-button>
+
+<div class="center">
+ <ion-button  class="sub"     (click)= "retu()"  ><p style="color: white;">submit</p></ion-button>
+</div>
+
+</ion-col>
+</ion-row>
+</ion-grid>
+
+
+
+
+
+</ion-content>
